@@ -28,5 +28,5 @@ jobs:
           AWS_DEFAULT_REGION: us-east-1
        run: |
           aws s3 cp \
-          ./build/ s3://test-nikhil-1 \
+          ./build/ s3://optitnihil \
           --recursive
